@@ -6,9 +6,9 @@ import asyncio
 import logging
 from dataclasses import dataclass, field
 
-from playwright._impl._api_structures import ProxySettings
-from playwright.async_api import Browser as PlaywrightBrowser
-from playwright.async_api import (
+from patchright._impl._api_structures import ProxySettings
+from patchright.async_api import Browser as PlaywrightBrowser
+from patchright.async_api import (
 	Playwright,
 	async_playwright,
 )
@@ -156,7 +156,7 @@ class Browser:
 						'--disable-blink-features=AutomationControlled',
 						'--disable-infobars',
 						'--disable-background-timer-throttling',
-						'--disable-popup-blocking',
+						# '--disable-popup-blocking',
 						'--disable-backgrounding-occluded-windows',
 						'--disable-renderer-backgrounding',
 						'--disable-window-activation',

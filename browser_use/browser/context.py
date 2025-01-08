@@ -13,11 +13,11 @@ import uuid
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Optional, TypedDict
 
-from playwright.async_api import Browser as PlaywrightBrowser
-from playwright.async_api import (
+from patchright.async_api import Browser as PlaywrightBrowser
+from patchright.async_api import (
 	BrowserContext as PlaywrightBrowserContext,
 )
-from playwright.async_api import (
+from patchright.async_api import (
 	ElementHandle,
 	FrameLocator,
 	Page,

@@ -2,7 +2,7 @@ import asyncio
 import logging
 
 from main_content_extractor import MainContentExtractor
-from playwright.async_api import Page
+from patchright.async_api import Page
 
 from browser_use.agent.views import ActionModel, ActionResult
 from browser_use.browser.context import BrowserContext

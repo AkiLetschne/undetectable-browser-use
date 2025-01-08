@@ -2,7 +2,7 @@ import logging
 from importlib import resources
 from typing import Optional
 
-from playwright.async_api import Page
+from patchright.async_api import Page
 
 from browser_use.dom.views import (
 	DOMBaseNode,
